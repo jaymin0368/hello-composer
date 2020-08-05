@@ -1,0 +1,17 @@
+{
+    "name": "vitalis/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jaymin0368",
+            "email": "jaymin.thakkar@krishtechnolabs.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"vitalis\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
